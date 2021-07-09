@@ -28,3 +28,14 @@ html{
         font-size: 22px;
     }
 }
+
+/*
+body 默认样式
+ */
+body{
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f8f8f8;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
