@@ -19,3 +19,6 @@ css reset
 
 /* 导航条样式 */
 @import "./navbar.css";
+
+/* 输入框样式 */
+@import "./input.css";
