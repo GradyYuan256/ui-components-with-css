@@ -1,0 +1,33 @@
+/* 表单的单行容器 */
+.tt-form-item{
+    display: flex;
+    position: relative;
+    padding-left: 1rem;
+    border-bottom: 1px solid #eee;
+}
+/* 去掉最后一行的下边框 */
+.tt-form-item:last-child{
+    border-bottom: none;
+}
+
+/* 表单标签 */
+.tt-form-item > .tt-form-label{
+    display: block;
+    width: 3.5rem;
+    font-size: .8rem;
+    color: #666;
+    height: 2rem;
+    line-height: 2rem;
+}
+/* 表单内容区 */
+.tt-form-item > .tt-form-body{
+    flex: 1;
+}
+/* 输入框 */
+.tt-form-item > .tt-form-body > .tt-input{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .8rem;
+    border:none;
+}
