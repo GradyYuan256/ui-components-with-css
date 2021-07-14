@@ -31,3 +31,18 @@
     font-size: .8rem;
     border:none;
 }
+
+/* 表单中的清空按钮 */
+.tt-form-item > .tt-form-body > .tt-input-reset{
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    line-height: .8rem;
+    top: 50%;
+    margin-top: -.4rem;
+    right: 1rem;
+    font-size: .6rem;
+    background: #aaa;
+    color: #fff;
+    border-radius: 50%;
+}
