@@ -46,3 +46,18 @@
     color: #fff;
     border-radius: 50%;
 }
+
+/* 表单中的错误提示按钮 */
+.tt-form-item > .tt-form-body > .tt-input-warning{
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    line-height: .8rem;
+    top: 50%;
+    margin-top: -.4rem;
+    right: 1rem;
+    font-size: .6rem;
+    border-radius: 50%;
+    color: red;
+    border: 1px solid red;
+}
