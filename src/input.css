@@ -61,3 +61,25 @@
     color: red;
     border: 1px solid red;
 }
+
+/* 自定义单选 */
+.tt-form-item > .tt-radio{
+    flex: 1;
+    font-size: .8rem;
+    line-height: 2rem;
+}
+/* 未选中状态的图标 */
+.tt-form-item > .tt-radio > .tt-radio-icon{
+    margin-right: .5rem;
+    color: #09BB07;
+    visibility: hidden;
+}
+/* 选中状态的图标 */
+.tt-form-item > .tt-radio.checked > .tt-radio-icon{
+    visibility: visible;
+}
+/* 隐藏的radio类型的input */
+.tt-form-item > .tt-radio > .tt-radio-input{
+    position: absolute;
+    left: -999rem;
+}
