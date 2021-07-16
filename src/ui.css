@@ -22,3 +22,6 @@ css reset
 
 /* 输入框样式 */
 @import "./input.css";
+
+/* 按钮的样式 */
+@import './button.css';
