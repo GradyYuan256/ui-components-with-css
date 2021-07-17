@@ -26,3 +26,9 @@
     background-color: #E64340;
     color: #fff;
 }
+/* 定制不可用按钮的样式 */
+.tt-btn.tt-btn-disabled{
+    background-color: #F7F7F7;
+    color: #999;
+    opacity: .6;
+}
