@@ -21,3 +21,8 @@
     background-color: #1AAD19;
     color: #fff;
 }
+/* 定制警示类按钮样式 */
+.tt-btn.tt-btn-warning{
+    background-color: #E64340;
+    color: #fff;
+}
