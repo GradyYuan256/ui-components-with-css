@@ -16,3 +16,8 @@
     text-overflow: ellipsis;
     user-select:none;
 }
+/* 定制主操作按钮样式 */
+.tt-btn.tt-btn-primary{
+    background-color: #1AAD19;
+    color: #fff;
+}
