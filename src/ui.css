@@ -25,3 +25,6 @@ css reset
 
 /* 按钮的样式 */
 @import './button.css';
+
+/* 搜索栏的样式 */
+@import './search.css';
