@@ -21,3 +21,77 @@
 .tt-navbar ~ .tt-content .tt-search.on-focus{
     bottom: 2.5rem;
 }
+/* 搜索栏中的表单 */
+.tt-search > .tt-search-form{
+    display: flex;
+    height: 2.3rem;
+    align-items:center;
+}
+/* 输入框的容器 */
+.tt-search > .tt-search-form > .tt-search-input-wrap{
+    flex: 1;
+    position: relative;
+    padding: 0 .5rem;
+}
+/* 取消按钮 */
+.tt-search > .tt-search-form > .tt-search-cancel{
+    flex: 0 0 2.2rem;
+    padding-right: .5rem;
+    text-align: center;
+    font-size: .7rem;
+    display: none;
+}
+/* 对取消按钮的控制 */
+.tt-search.on-focus > .tt-search-form > .tt-search-cancel{
+    display: block;
+}
+/* 搜索图标 */
+.tt-search .tt-search-icon{
+    position: absolute;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .7rem;
+    left: 1rem;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #ccc;
+}
+/* 输入框的样式 */
+.tt-search .tt-search-input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.6rem;
+    border: none;
+    font-size: .8rem;
+    padding-left: 1.5rem;
+    background: #fff;
+    border-radius: .2rem;
+}
+/* 清空按钮的样式 */
+.tt-search .tt-search-clear{
+    position: absolute;
+    height: .8rem;
+    line-height: .8rem;
+    width: .8rem;
+    font-size: .6rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 1rem;
+    border-radius: 50%;
+    color: #fff;
+    background: #ccc;
+    display: none;
+}
+/* 对清空按钮的控制 */
+.tt-search.on-focus .tt-search-input:valid + .tt-search-clear{
+    display: block;
+}
+/* 搜索建议 */
+.tt-search > .tt-search-suggest{
+    display: none;
+}
+.tt-search.on-focus > .tt-search-suggest{
+    display: block;
+}
