@@ -95,3 +95,13 @@
 .tt-search.on-focus > .tt-search-suggest{
     display: block;
 }
+/* 搜索建议的内容 */
+.tt-search > .tt-search-suggest > .tt-suggest-item{
+    padding-left: 1rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .8rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
