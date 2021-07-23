@@ -31,3 +31,6 @@ css reset
 
 /* 列表的样式 */
 @import './list.css';
+
+/* 网格组件的样式 */
+@import './grid.css';
