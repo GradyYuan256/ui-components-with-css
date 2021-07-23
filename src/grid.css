@@ -31,7 +31,7 @@
 }
 /* 不需要边框时取消容器上的border */
 .tt-grid.no-border{
-    border: none;
+    border: none !important;
 }
 /* 不需要边框时取消格子上所有的border */
 .tt-grid.no-border > .tt-grid-item{
