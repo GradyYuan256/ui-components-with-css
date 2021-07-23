@@ -1,1 +1,39 @@
 /* 网格组件 */
+.tt-grid{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #ddd;
+}
+/* 网格中的格子 */
+.tt-grid > .tt-grid-item{
+    position: relative;
+    flex: 1 1 33%;
+    box-sizing: border-box;
+    padding: 1.2rem 0;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+/* 默认是3列 */
+.tt-grid .tt-grid-item:nth-child(3n){
+    border-right: none;
+}
+/* grid内容区 */
+.tt-grid > .tt-grid-item > .tt-grid-icon{
+    font-size: 1.5rem;
+    color: #aaa;
+    margin-bottom: .5rem;
+}
+.tt-grid > .tt-grid-item > .tt-grid-label{
+    font-size: .6rem;
+    color: #333;
+}
+/* 不需要边框时取消容器上的border */
+.tt-grid.no-border{
+    border: none;
+}
+/* 不需要边框时取消格子上所有的border */
+.tt-grid.no-border > .tt-grid-item{
+    border: none;
+}
