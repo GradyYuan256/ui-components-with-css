@@ -57,3 +57,13 @@
 .tt-grid.tt-grid-4 .tt-grid-item:nth-child(4n){
     border-right: none;
 }
+
+/* 五列网格 */
+.tt-grid.tt-grid-5 .tt-grid-item{
+    border-right: 1px solid #ddd;
+    flex-basis: 20%;
+    padding: .6rem 0;
+}
+.tt-grid.tt-grid-5 .tt-grid-item:nth-child(5n){
+    border-right: none;
+}
