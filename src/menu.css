@@ -1,1 +1,34 @@
 /* 菜单组件 */
+
+/* 菜单项 */
+.tt-menu > .tt-menu-item{
+    display: flex;
+    height: 2.3rem;
+    padding: 0 1rem;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    font-size: .8rem;
+}
+/* 菜单名称 */
+.tt-menu > .tt-menu-item > .tt-menu-name{
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+}
+/* 菜单信息 */
+.tt-menu > .tt-menu-item > .tt-menu-value{
+    max-width: 5rem;
+    height: 1rem;
+    line-height: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #999;
+}
+/* 下级操作引导图标 */
+.tt-menu > .tt-menu-item > .tt-menu-icon{
+    margin-left: .3rem;
+    color: #999;
+}
