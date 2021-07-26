@@ -53,3 +53,20 @@
     border-color: #07C160;
     background-color: #07C160;
 }
+
+/* 使用::after伪元素实现圆形按钮的样式 */
+.tt-menu > .tt-menu-item > .tt-switch::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: .7rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 2px #999;
+}
+/* 选中状态下，更改圆形按钮的位置 */
+.tt-menu > .tt-menu-item > .tt-switch:checked::after{
+    left: 1.2rem;
+}
