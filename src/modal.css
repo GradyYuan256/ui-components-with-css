@@ -1,4 +1,8 @@
 /* 模态框 */
 .tt-modal{
-
+    display: none;
+}
+/* 控制模态框的显示 */
+.tt-modal.show{
+    display: block;
 }
