@@ -45,3 +45,30 @@
 .tt-modal .tt-modal-footer .tt-btn + .tt-btn{
     border-left: 1px solid #ddd;
 }
+
+/* 控制模态框内容区的内边距 */
+.tt-modal .tt-modal-body.no-padding{
+    padding: 0;
+}
+/* 图片形式的模态框样式 */
+.tt-modal .tt-modal-body .tt-modal-img{
+    display: block;
+    width: 100%;
+    border-radius: .3rem;
+}
+/* 纯图片模态框里的关闭按钮 */
+.tt-modal .tt-modal-close{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 1.3rem;
+    line-height: 1.3rem;
+    margin: auto;
+    bottom: -3rem;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 100;
+    color: #eee;
+    border: 1px solid #eee;
+    border-radius: 50%;
+}
