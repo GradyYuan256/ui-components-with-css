@@ -43,3 +43,6 @@ css reset
 
 /* 加载提示组件 */
 @import './loading.css';
+
+/* Toast弹出提示组件 */
+@import './toast.css';
