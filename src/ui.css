@@ -49,3 +49,6 @@ css reset
 
 /* actionSheet可选菜单 */
 @import './action-sheet.css';
+
+/* article文本组件 */
+@import './article.css';
