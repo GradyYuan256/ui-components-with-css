@@ -16,7 +16,6 @@
 .tt-action-sheet.show .tt-action-sheet-wrap{
     transform: translateY(0);
 }
-
 /* 默认隐藏蒙版 */
 .tt-action-sheet > .tt-mask{
     opacity: 0;
@@ -29,7 +28,6 @@
     opacity: 1;
     pointer-events: auto;
 }
-
 /* 弹出菜单头部 */
 .tt-action-sheet .tt-action-sheet-header{
     padding: 0 2rem;
@@ -51,7 +49,6 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
-
 /* 中间主要内容区 */
 .tt-action-sheet .tt-action-sheet-body{
     border-top: 1px solid rgba(0, 0, 0, .1);
