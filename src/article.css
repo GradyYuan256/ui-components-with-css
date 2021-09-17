@@ -14,7 +14,6 @@
     max-height: 100%;
     overflow: hidden;
 }
-
 /* 展开按钮 */
 .tt-article .tt-article-unfold-btn{
     display: none;
@@ -34,7 +33,6 @@
 .tt-article.fold .tt-article-unfold-btn{
     display: block;
 }
-
 /* 文章大标题 */
 .tt-article .tt-article-title{
     margin: .5rem 0 1rem;

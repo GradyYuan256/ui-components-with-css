@@ -9,7 +9,6 @@
 html{
     font-size: 20px;
 }
-
 /*
 屏幕宽度小于340px时的样式
  */
@@ -18,8 +17,6 @@ html{
         font-size: 18px;
     }
 }
-
-
 /*
 屏幕宽度大于410px时的样式
  */
@@ -28,7 +25,6 @@ html{
         font-size: 22px;
     }
 }
-
 /*
 body 默认样式
  */
@@ -39,7 +35,6 @@ body{
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
-
 /* 页面蒙版 */
 .tt-mask{
     position: fixed;
