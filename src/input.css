@@ -9,7 +9,6 @@
 .tt-form-item:last-child{
     border-bottom: none;
 }
-
 /* 表单标签 */
 .tt-form-item > .tt-form-label{
     display: block;
@@ -31,7 +30,6 @@
     font-size: .8rem;
     border:none;
 }
-
 /* 表单中的清空按钮 */
 .tt-form-item > .tt-form-body > .tt-input-reset{
     position: absolute;
@@ -46,7 +44,6 @@
     color: #fff;
     border-radius: 50%;
 }
-
 /* 表单中的错误提示按钮 */
 .tt-form-item > .tt-form-body > .tt-input-warning{
     position: absolute;
@@ -61,7 +58,6 @@
     color: red;
     border: 1px solid red;
 }
-
 /* 自定义单选 */
 .tt-form-item > .tt-radio{
     flex: 1;
