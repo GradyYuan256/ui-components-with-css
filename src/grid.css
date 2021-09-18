@@ -37,7 +37,6 @@
 .tt-grid.no-border > .tt-grid-item{
     border: none;
 }
-
 /* 两列网格 */
 .tt-grid.tt-grid-2 .tt-grid-item{
     border-right: 1px solid #ddd;
@@ -47,7 +46,6 @@
 .tt-grid.tt-grid-2 .tt-grid-item:nth-child(2n){
     border-right: none;
 }
-
 /* 四列网格 */
 .tt-grid.tt-grid-4 .tt-grid-item{
     border-right: 1px solid #ddd;
@@ -57,7 +55,6 @@
 .tt-grid.tt-grid-4 .tt-grid-item:nth-child(4n){
     border-right: none;
 }
-
 /* 五列网格 */
 .tt-grid.tt-grid-5 .tt-grid-item{
     border-right: 1px solid #ddd;
