@@ -1,5 +1,3 @@
-/* 列表的样式 */
-
 /* 列表里每一行的容器 */
 .tt-list > .tt-list-item{
     display: flex;
