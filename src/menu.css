@@ -1,5 +1,3 @@
-/* 菜单组件 */
-
 /* 菜单项 */
 .tt-menu > .tt-menu-item{
     display: flex;
@@ -54,7 +52,6 @@
     border-color: #07C160;
     background-color: #07C160;
 }
-
 /* 使用::after伪元素实现圆形按钮的样式 */
 .tt-menu > .tt-menu-item > .tt-switch::after{
     content: " ";
