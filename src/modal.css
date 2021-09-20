@@ -6,7 +6,6 @@
 .tt-modal.show{
     display: block;
 }
-
 /* 模态框窗口容器 */
 .tt-modal .tt-modal-wrap{
     position: absolute;
